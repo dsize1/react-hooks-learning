@@ -1,0 +1,92 @@
+:global .ui-typography {
+  cursor: text;
+  background-color: #fff;
+}
+
+:global .typography-icon {
+  color: royalblue;
+  margin-left: .25em;
+  transform: translateY(0.125em);
+  cursor: pointer;
+  transition: color .5s;
+}
+
+:global .typography-icon:hover {
+  color: #40a9ff;
+}
+
+:global .typography-title {
+  margin-bottom: .5em;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 600;
+}
+
+:global .typography-h1 {
+  font-size: 38px;
+  line-height: 1.23;
+}
+
+:global .typography-h2 {
+  font-size: 30px;
+  line-height: 1.35;
+}
+
+:global .typography-p {
+  margin-bottom: 1em;
+}
+
+:global .typography-h3 {
+  font-size: 24px;
+  line-height: 1.35;
+}
+
+:global .typography-h4 {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+:global .typography-editable {
+  position: relative;
+  padding: 0;
+}
+
+:global .editable-textarea {
+  width: 100%;
+  border: none;
+  padding: 0;
+  overflow: visible;
+}
+
+:global .editable-icon {
+  position: absolute;
+  top: .25em;
+  right: .25em;
+}
+
+.ellipsis {
+  overflow: hidden;
+  position: relative;
+}
+
+.ellipsis__btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: inherit;
+}
+
+.warning {
+  color: #d48806;
+}
+
+.danger {
+  color: #cf1322;
+}
+
+.secondary {
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.disabled:hover {
+  cursor: not-allowed;
+}
