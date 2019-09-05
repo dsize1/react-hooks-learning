@@ -1,6 +1,6 @@
 var invokedTimes = function (func, times = 1) {
   var result
-  if (typeof nth !== 'number') {
+  if (typeof times !== 'number') {
     times = 1
   }
   if (typeof func !== 'function') {
